@@ -527,10 +527,12 @@ template {
     content: "";
 }
 .g-container>a {
-    margin-top:-11px;
+    margin-top: 5px;
     font-size: 24px;
     margin-left: -14rem;
+    font-weight: 600;
     font-family: "harriet-display", Helvetica, serif;
+    color: var(--pure)
 }
 @media (min-width:1200px) {
 
@@ -2767,6 +2769,7 @@ body.scrolled #site-header nav svg circle {
 @media (min-width:768px) {
     #site-header.light nav a {
         color: var(--pure);
+        font-weight: 600;
     }
 }
 
