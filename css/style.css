@@ -526,7 +526,9 @@ template {
     clear: both;
     content: "";
 }
-
+.g-container>a {
+    margin-top:-11px;
+}
 @media (min-width:1200px) {
 
     .g-container,
@@ -537,19 +539,6 @@ template {
 
 .g-container {
     max-width: 1320px;
-}
-.g-container>a {
-    display: inline-block;
-    font-family: "harriet-display", Helvetica, serif;
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 300;
-    letter-spacing: 0.3px;
-    color: var(--pure);
-    position: relative;
-    z-index: 2;
-    margin-left: -14rem;
-    padding-bottom: 1em;
 }
 
 .g-row {
