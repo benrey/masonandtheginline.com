@@ -123,7 +123,8 @@
     --maroon: #8a1919;
     --redBtn: #eb0505;
     --greyCardBG: #485353;
-    --dkGrey: #222222;
+    --dkGrey: #222;
+    --blackish: #0f0f0f;
   }
 
 *,
@@ -528,10 +529,9 @@ template {
 }
 
 @media (min-width:1200px) {
-
     .g-container,
     .g-container-fluid {
-        padding: 0 40px;
+        padding: 10px 40px;
     }
 }
 
@@ -2769,6 +2769,7 @@ body.scrolled #site-header nav svg circle {
 
 #site-header.light .logo.dark {
     display: none;
+    color: var(--blackish);
 }
 
 @media (min-width:768px) {
@@ -8655,7 +8656,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
 
 @media (min-width:768px) {
     .block-featured-projects .row1 h2 {
-        margin-bottom: 0;
+        margin-bottom: 3em;
     }
 }
 
@@ -8682,7 +8683,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
 
 @media (min-width:1024px) {
     .block-featured-projects .row1 p {
-        margin-bottom: 68px;
+        margin-bottom: 20px;
     }
 }
 
