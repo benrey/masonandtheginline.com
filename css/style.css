@@ -535,6 +535,7 @@ template {
     font-family: "harriet-display", Helvetica, serif;
     color: var(--pure)
 }
+
 @media (min-width:1200px) {
     .g-container,
     .g-container-fluid {
